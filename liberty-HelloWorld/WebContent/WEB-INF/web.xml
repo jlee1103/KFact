@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+	<display-name>Demo2</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+	
+	<servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>example.jaemo.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>search</servlet-name>
+        <servlet-class>example.jaemo.ProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search</servlet-name>
+        <url-pattern>/ProductServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>example.jaemo.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Item</servlet-name>
+        <servlet-class>example.jaemo.ItemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Item</servlet-name>
+        <url-pattern>/ItemServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>purchase</servlet-name>
+        <servlet-class>example.jaemo.PurchaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>purchase</servlet-name>
+        <url-pattern>/PurchaseServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Payment</servlet-name>
+        <servlet-class>example.jaemo.PaymentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Payment</servlet-name>
+        <url-pattern>/PaymentServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Category</servlet-name>
+        <servlet-class>example.jaemo.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Category</servlet-name>
+        <url-pattern>/CategoryServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Mypage</servlet-name>
+        <servlet-class>example.jaemo.MypageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Mypage</servlet-name>
+        <url-pattern>/MypageServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>Order</servlet-name>
+        <servlet-class>example.jaemo.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Order</servlet-name>
+        <url-pattern>/OrderServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>MP</servlet-name>
+        <servlet-class>example.jaemo.MPServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MP</servlet-name>
+        <url-pattern>/MPServlet</url-pattern>
+    </servlet-mapping>
+    
+<servlet>
+        <servlet-name>ErrorHandler</servlet-name>
+        <servlet-class>example.jaemo.ErrorHandler</servlet-class>
+</servlet>
+<!-- servlet mappings -->
+<servlet-mapping>
+        <servlet-name>ErrorHandler</servlet-name>
+        <url-pattern>/ErrorHandler</url-pattern>
+</servlet-mapping>
+<error-page>
+    <error-code>404</error-code>
+    <location>/ErrorHandler</location>
+</error-page>
+<error-page>
+    <exception-type>java.lang.Throwable</exception-type >
+    <location>/ErrorHandler</location>
+</error-page>
+    
+    
+</web-app>

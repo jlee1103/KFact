@@ -1,0 +1,10 @@
+applications:
+- services:
+  - SQL Database-iu
+  disk_quota: 1024M
+  host: jlee1105
+  name: jlee1105
+  path: webStarterApp.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M

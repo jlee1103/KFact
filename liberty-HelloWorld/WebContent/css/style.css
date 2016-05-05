@@ -1,0 +1,285 @@
+/* -----
+	Author:			Mohammed Munawar Ahmed
+	Company:		Mobifreaks.com
+	Company URL:	http://www.mobifreaks.com
+	Mail Us:		support@mobifreaks.com 
+	License:		Creative Commons 3.0 Unported
+	License URL:	http://creativecommons.org/licenses/by/3.0/
+	
+	Attribution Required:
+	User should provide backlink to mobifreaks.com / source page from which you downloaded this mobile template [or] keep the link the text "Design by mobifreaks.com" on the footer
+	NOTE: no follow, no index back link will not be considered as a healthy back link. link should be clickable.
+----- */
+
+/* -----
+reset
+----- */
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#over
+{
+    width:100%;
+    height:100%;
+    text-align: center; /*handles the horizontal centering*/
+}
+/*handles the vertical centering*/
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.Centered
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td,*{
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{
+	border:0;
+}
+address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{
+	font:inherit;
+}
+del,ins{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+	font-variant:normal;
+}
+sup,sub{
+	vertical-align:baseline;
+}
+legend{
+	color:#000000;
+}
+a{
+	color:#0079ce;
+	text-decoration:none;
+}
+/*
+additional
+*/
+.clear{
+	clear:both;
+}
+/* ----- Main Class's ----- */
+.header{
+	border-bottom:1px solid #eeeeee;
+	background:#5F5454;
+}
+.header,
+.footer,
+.nav{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.85em;
+	background:#5F5454;
+}
+
+.content{
+	height: 100%;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.85em;
+	background:#5F5454;
+}
+/* ----- Header ----- */
+.logo{
+	float:left;
+	display:inline-block;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	padding:1px;
+	margin-left:1px;
+	background:#000000;
+}
+.header input{
+	text-align:right;
+	float:right;
+	padding:5px;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	border-radius:.3em;
+	margin:5px 10px 5px 0;
+	border:none;
+	color:#000000;
+	border:1px solid #eeeeee;
+	background:#ffffff;
+	
+}
+/* ----- Menu ----- */
+.header button{
+	cursor:pointer;
+	float:right;
+	padding:5px;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	border-radius:.3em;
+	margin:5px 10px 5px 0;
+	border:none;
+	color:#aaaaaa;
+	border:1px solid #eeeeee;
+	background:#ffffff;
+	line-break: normal
+}
+
+.category {
+	text-align:center;
+	background:#5F5454;
+	font-family:Gabriola;
+}
+
+.category a{
+	display:block;
+	padding:10px;
+	color:#ffffff;
+}
+.category a:hover{
+	background:#5F5454;
+	color:#0079ce;
+}
+
+.nav{
+	text-align:center;
+	background:#5F5454;
+}
+.nav ul{
+}
+.nav li{
+	text-transform:capitalize;
+	display:block;
+	border-bottom:1px dotted #eeeeee;
+}
+.nav a{
+	display:block;
+	padding:10px;
+	color:#ffffff;
+}
+.nav a:hover{
+	background:#ffffff;
+	color:#0079ce;
+}
+/* ----- Content ----- */
+.blog{
+	padding:10px;
+	border-bottom:2px solid #eeeeee;
+	padding:10px;
+	background:#5F5454;
+}
+.blog h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+}
+.blog h2 a{
+	color:#0079ce;
+}
+.blog-img{
+	text-align:center;
+	margin:0 auto;
+	padding:10px 0 5px 0;
+}
+.blog-content{
+	color:#2d2d2d;
+}
+.blog-content h3{
+	padding:5px 0;
+}
+.blog-content code{
+	overflow:hidden;
+	font-family: "Courier New", Courier, monospace; 
+	display:block;
+	margin:10px;
+	padding:10px;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+}
+.dark{
+	background:#2d2d2d;
+	color:#dddddd;
+}
+.light{
+	background:#f9f9f9;
+	color:#2d2d2d;
+	border:1px solid #dddddd;
+}
+
+}/* ----- Footer ----- */
+.footer a{
+	display:inline-block;
+}
+.footer p{
+	color:#1d1d1d;
+	padding:5px;
+}
+.author a{
+	display:inline-block;
+	color:#004b7f;
+}
+.author a:hover{
+}
+.author{
+	font-family:Arial, Helvetica, sans-serif;
+	border-top:1px solid #eeeeee;
+	text-align:right;
+	font-size:12px;
+	padding:10px;
+}
+
+
+input.search {
+	width: 8em;  height: 2em;
+	font-weight:bold;
+}
+input.pass {
+	width: 12em;  height: 2em;
+	text-align: right;
+}
+
+select.sel {
+	width: 3em;  height: 2em;
+}
+
+input.passzip {
+	width: 6em;  height: 2em;
+	text-align: right;
+}
+
+input.sec {
+	width: 4em;  height: 2em;
+	text-align: right;
+}
+
+table.alignt {
+	text-align: center;
+	vertical-align: middle; 
+}
+
+
+
+
